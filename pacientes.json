@@ -1,0 +1,55 @@
+{
+    "PACIENTES": [
+        {
+            "PutRequest":{
+                "Item":{
+                    "data_nascimento" : {
+                        "S" : "1985-11-11"
+                    },
+                    "email" : {
+                        "S": "basso@gmail.com"
+                    },
+                    "nome": {
+                        "S": "Basso"
+                    },
+                    "paciente_id" : {
+                        "S" : "1234-abc"
+                    },
+                    "status" : {
+                        "BOOL" : true
+                    },
+                    "telefone" : {
+                        "S" : "1196781234"
+                    }
+                }
+            }
+            
+        },
+        {
+            "PutRequest":{
+                "Item":{
+                    "data_nascimento" : {
+                        "S" : "1985-08-13"
+                    },
+                    "email" : {
+                        "S": "maia@gmail.com"
+                    },
+                    "nome": {
+                        "S": "Maia"
+                    },
+                    "paciente_id" : {
+                        "S" : "1234-abd"
+                    },
+                    "status" : {
+                        "BOOL" : true
+                    },
+                    "telefone" : {
+                        "S" : "1196781234"
+                    }
+                }
+            }
+            
+        }
+
+    ]
+}
